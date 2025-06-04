@@ -1,0 +1,71 @@
+<div class="column">
+        <h2>Título 1</h2>
+        <p>Subtítulo 1</p>
+    </div>
+    <div class="column">
+        <h2>Título 2</h2>
+        <p>Subtítulo 2</p>
+    </div>
+    <div class="column">
+        <h2>Título 3</h2>
+        <p>Subtítulo 3</p>
+    </div>
+
+
+
+
+
+
+    <ul class="DESCRIPTION">
+                    <li><strong>Detección de gases:</strong> Metano, Propano, Butano
+                    </li>
+                    <li><strong>NOTIFICACIONES EN TIEMPO REAL:</strong>Notificaciones a través de Telegram</li>
+                    <li><strong>SONIDO:</strong>Alarma sonora integrada</li>
+                    <li><strong>ACCESIBILIDAD:</strong>Fácil instalación y configuración</li>
+                    <li><strong>Conexión Wi-Fi:</strong> para notificaciones en tiempo real</li>
+                </ul>
+
+
+CSS:
+
+.CONTAINER{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 5px 5px 15px #222;
+    background: #a4bccd;
+    border-radius: 7px;
+}
+
+
+
+button{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    background-color: #fff;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 13px;
+    width: 125px;
+    height: 55px;
+    font-size: 20px;
+    color: #000;
+    font-family: cursive;
+}
+
+button:hover{
+    width: 250px;
+    height: 110px;
+    font-size: 40px;
+    padding-top: 26px;
+    transition: all .5s ease-in-out;
+    background-color: #fea118;
+    box-shadow: 0px 0px 10px #feb933;
+}
+
+<div id="outer">
+                <button class="button_slide slide_left">BUY NOW</button>
+            </div>

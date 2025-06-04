@@ -1,0 +1,319 @@
+
+body{
+    display: table-row;
+    height: 100vh;
+    font-size: 16px;
+    background-size: contain;   
+    font-family: sans-serif;
+    color: #fff; 
+    margin: 0;
+    background: linear-gradient( #ff7e00,#feb933,#ff7e00);
+    transition: background 1s ease-in-out;
+}
+
+p{
+    font-family: cursive;
+}
+button{
+    color: #222;
+    border: 2px solid  rgb(36, 210, 178);
+    border-radius: 0px;
+    padding: 18px 36px;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #a4bccd;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    background-color: #bdeadb;
+    
+
+}
+/*
+.slide_left:hover {
+    box-shadow: inset 0 0 0 50px #adeada;
+    color: #fff;
+    width: 250px;
+    height: 150px;
+    border-radius: 7px;
+    font-size: 30px;
+    transition: all .5s ease-in-out;
+}
+#outer {
+    width: 364px;
+    margin: 50px auto 0 auto;
+    text-align: center;
+}*/
+nav{
+    background-color: #fff;
+    margin: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 90vw;
+    height: 7vh;
+    position: sticky;
+    top: 20px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px ;
+    padding:30px;
+    transition: all .5s ease-in-out;
+}
+ul,li{
+    list-style: none;
+    padding: 1em;
+    display: flex;
+    margin: 10px;
+    font-size: 30px;
+}
+li{
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 30px;
+}
+
+.NAV:hover{
+    background-color: #fea118;
+    box-shadow: 0px 0px 10px #feb933;
+}
+nav:hover{
+    height: 8vh;
+    font-size: 40px;
+
+}
+
+a{
+    text-decoration: none;
+    color: #222;
+    letter-spacing: 5px;
+}
+a:hover{
+    color: #fff;
+}
+
+.LOGO_SGM{
+    border-radius: 7px;
+    width: 800px;
+    height: 800px;
+    margin: 0;
+    display: block; 
+    margin: 0 auto; 
+    transition: all .5s ease-in-out;
+}
+.LOGO_SGM:hover{
+    width: 1000px;
+    height: 1000px;
+}
+
+h1{
+    margin: 15px;
+    padding: 15px;
+    font-size: 100px;
+    text-align: center;
+}
+.SLOGAN{
+    margin: 1px;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+h2{
+    font-size: 65px;
+    text-align: left;
+}
+
+section{
+    padding: 200px 70px;
+    transition: background-color 0.5s ease-in-out;
+}
+.PRODUCT{
+    
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(/WEB/IMAGES/Imagen_Producto_Sensor.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: contain; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 0;
+    margin-bottom: 0;
+    filter: drop-shadow(0 0 5px #000);
+    font-weight:900;
+}
+.M_V{
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+
+#HOME{
+    background-color: transparent;
+}
+#PRODUCT{
+    background-color: transparent;
+}
+#ABOUT_US{
+    background-color: transparent;
+}
+
+#CONTACT_SUPPORT{
+    background-color: transparent;
+}
+
+.CONTAINER {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra las columnas */
+    box-shadow: 5px 5px 15px #222;
+    background: #a4bccd;
+    border-radius: 7px;
+    padding: 20px;
+    gap: 20px; /* Espacio entre las columnas */
+}
+
+.column {
+    flex: 1 1 300px; /* Flexibilidad: crece y se adapta, con un ancho mínimo de 300px */
+    display: flex;
+    flex-direction: column; /* Alinea el título y subtítulo en vertical */
+    padding: 10px;
+    background: #b8c9d5;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all .5s ease-in-out;
+}
+.column:hover{
+    font-size: 50px;
+    box-shadow: 3px 3px 10px #222;
+}
+
+.TT_DS {
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.P_DS {
+    font-size: 1em;
+    color: #fff;
+    text-align: center;
+}
+.ABOUT_US_COLUMN{
+    flex: 1 1 300px; /* Flexibilidad: crece y se adapta, con un ancho mínimo de 300px */
+    display: flex;
+    flex-direction: column; /* Alinea el título y subtítulo en vertical */
+    padding: 10px;
+    background: #b8c9d5;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all .5s ease-in-out;
+}
+.ABOUT_US_COLUMN:hover{
+    font-size:  30px;
+    box-shadow: 3px 3px 10px #222;
+
+}
+.IMG_TEAM{
+    background-image: url(/WEB/IMAGES/Designer.jpeg); 
+    background-position: center;
+    background-size:auto; 
+    background-attachment: fixed;
+    height: 300px;
+    width: 1000px;
+    margin-left: 20px;
+    border-radius: 4px;
+}
+.ABOUT_US_DESCRIP{
+    flex: 1 1 300px; /* Flexibilidad: crece y se adapta, con un ancho mínimo de 300px */
+    display: flex;
+    flex-direction: column
+}
+.CONTACT_TEXT{
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.CONTACT_LINK{
+    font: 25px;
+
+}
+h4{
+    font-size: 40px;
+}
+.CONTACT_Y_SUPPOT_COLUMN{
+    flex: 1 1 90px; /* Flexibilidad: crece y se adapta, con un ancho mínimo de 300px */
+    padding: 10px;
+    background: #b8c9d5;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    font-size: 25px;
+    text-align: justify;
+    transition: all .5s ease-in-out;
+}
+.CONTACT_Y_SUPPOT_COLUMN:hover{
+    font-size:  40px;
+    box-shadow: 3px 3px 10px #222;
+}
+.CONTACT_Y_SUPPOT_COLUMN_TITLE{
+    font-size: 50px;
+}
+.CONTACT_Y_SUPPOT_COLUMN_TEXT{
+    font-size: 30px;
+    text-align: left;
+    
+}
+.RELLENO_XD{
+    width: 100px;
+}
+.LINK_FORMULARIO{
+    text-align: center;
+    background-color: transparent;
+    letter-spacing: 0px;
+    transition: all .5s ease-in-out ;
+}
+.LINK_FORMULARIO:hover{
+
+    margin-top: 20px;
+    background: #ff7e00;
+    border-radius: 999px;
+    box-shadow: 0 0 15px #feb933;
+    height: 50px;
+
+}
+.FORMULARIO_TEXTO{
+    padding: 20px;
+    transition: all .5s ease-in-out;
+
+}
+.FORMULARIO_TEXTO:hover{
+    padding-top: 40px ;
+    margin-top: 50px;
+}
+footer{
+    background: linear-gradient(#222,#111,#000);
+    height: 700px;
+    font-size: 40px;
+}
+.INSTA{
+    color: #555;
+}
+.INSTA:hover{
+    text-shadow: 0 0 15px #fff;
+}
+.TERM_COND:hover{
+    text-shadow: 0 0 15px #fff;
+}
+.TERM_COND{
+    color: #555;
+    transition: 1s text-shadow ease-in-out ;
+}
