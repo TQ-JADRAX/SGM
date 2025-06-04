@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SELECT,DATALIST Y OPTION</title>
+    <link rel="stylesheet" href="/WEB/LOG/LOG/style.css">
+    <link rel = "icon" href="/WEB/IMAGES/logsgm.png" type="icon.png">
+</head>
+<body>
+        <form >
+            <h2>FORMULARIO DE CONTACTO</h2>
+            <!--SIMPLE INPUT-->
+            <div class="form_input">
+                <label for="nombre">NOMBRE COMPLETO</label>
+                <input required type="text" placeholder="Steve Mcfly" id="nombre">
+            </div>        
+            <div class="form_input">
+            <label for="email">EMAIL</label>
+                <input  required type="email" placeholder="ejemplo123@gmal.com" id="email">
+            </div>
+            <!--SELECT Y OPTION-->
+            <div class="form_input">
+                <label > TIPO DE USUARIO
+                    <select required name="type-of-user" id="">
+                        <option value="user1">Seguidor</option>
+                        <option value="user2">Empresa</option>
+                        <option value="user3">Otro</option>
+                </select>
+                </label>
+            </div>
+            <!--DATALIST & OPTION-->
+            <div class="form_input">
+                <label > REFERENTE
+                    <input list="referente" name="referente">
+                    <datalist id="referente"name="type-of-user" id="">
+                            <option value="Alex">Desarrollador web</option>
+                            <option value="Una empresa">Empresas</option>
+                            <option value="Un amigo">Terceros</option>
+                            <option value="Otro">Otro</option>
+                    </select>
+                </label>
+            </div>
+            <!--TEXTAREA-->
+            <div class="form_input">
+                <label for="comentarios">COMENTARIO</label>
+                <textarea  placeholder="Deja tu comentario:" id="comentarios"></textarea>
+            </div>
+            <div class="form_input">
+                <div class="btn_submit"><input class="submit_tt" type="submit" placeholder="enviar">
+                </div>
+                <label for="verificador">Acepto los <a href="/WEB/LOG/EVENT/index.html" target="_blank">terminos y condiciones</a>
+                    <input type="checkbox" id="verificador" class="checkbox" required>
+                </label>
+            </div>
+        </form>   
+</body>
+</html>

@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 0;
+    color: #fff;
+    background: linear-gradient(#222f,#222,#000);
+}
+h1, h2 {
+    color: #eee;
+    text-shadow: 0 0 15px #fffa;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+ul {
+    margin-left: 20px;
+}
+a {
+    color: #69f;
+    text-shadow: 0 0 15px #58a ;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}

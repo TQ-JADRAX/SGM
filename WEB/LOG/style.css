@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1f4037, #99f2c8);
+    font-size: 16px;
+    
+}
+.login-container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.input-container input::placeholder{
+    color: #e3ffff;
+
+}
+.input-container input:focus{
+    background-color: rgba(255,255,255,0.4);
+    box-shadow: 0 0 10px 3px rgba(255,255,255,0.5);
+}
+.options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #ffffff;
+}
+.options laber, .options a{
+    cursor:pointer;
+}
+.options a{
+    color: #99f2c8;
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+}
+.options a:hover{
+    color: #ffffff;
+
+}
+.login-btn{
+    padding: 15px;
+    background-color: #00bfa5;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor:pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, box-shadow ease;
+}
+.login-btn:hover{
+    background-color: #008080;
+    box-shadow: 0 0 15px 2px rgba(0,191,165,0.7);
+}
+a{
+    text-decoration: none;
+    color: #99f2c8;
+}
+p{
+    color: #c9e7e7;
+
+}
+p a {
+    color: #99f2c8;
+    text-decoration: none;
+    transition: color 0.3 ease;
+
+}
+p a:hover{
+    color: #ffffff;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.input-container{
+    position: relative;
+    margin-bottom: 20px;
+
+}
+.input-container input{
+    width: 100%;
+    padding:  15px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(255,255,255,0.25);
+    color: #ffffff;
+    font-size: 16px;
+    outline: none;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.login-box{
+    border-top: #1f4037 solid 5px;
+    background-color: rgba(255,255,255,0.15);
+    padding: 3rem;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px rgba(0,0,0,0.37);
+    text-align: center;
+    width: 350px;
+    transition: transform 0.3s ease;
+
+}
+h2{
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
