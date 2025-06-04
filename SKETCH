@@ -1,0 +1,26 @@
+ <div class="presentacion card">
+        <h2>Pesentamos SGM, una empresa de emprendedores enfocados en la seguridad de la gente</h2>
+        <p>Obten atencion accesible y personalizada en cuanto a fugas de gas.</p>
+    </div>
+        <div class="enfoque card">
+            <h2>Nuestro enfoque</h2>
+            <p>Somos un grupo de estudiantes con la intencion de resolver una necesidad.
+                Estamos enfocados en desarrollar un dispositivo compacto el cual salvaguarde tu integridad y seguridad, todo esto a la distancia.
+            </p>
+        </div>
+            <div>
+                <button type="submit" class="more_info"><a href="/WEB/INTERFACE/index.html">Mas informacion</a></button>
+            </div>
+                <div class="sgr imagenes">
+                    <img src="https://freepngimg.com/thumb/asuna/24496-5-asuna-photos-thumb.png" alt="ASUNA2">
+                    <div class="texto">
+                        <p>Te proporcionaremos un espacio seguro para tu tranquilidad</p>
+                    </div>
+                    
+                </div>
+
+                        <div></div>
+                            <div></div>
+                                <div></div>
+    <div></div>
+    <div></div>
